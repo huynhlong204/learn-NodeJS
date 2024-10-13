@@ -1,0 +1,30 @@
+{
+  "name": "learn-nodejs",
+  "version": "1.0.0",
+  "description": "Learn NodeJS",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huynhlong204/learn-NodeJS.git"
+  },
+  "keywords": [
+    "hUYNHLONG",
+    "tutoral"
+  ],
+  "author": "Long",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huynhlong204/learn-NodeJS/issues"
+  },
+  "homepage": "https://github.com/huynhlong204/learn-NodeJS#readme",
+  "dependencies": {
+    "express": "4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.7"
+  }
+}
