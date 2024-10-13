@@ -2,9 +2,10 @@
   "name": "learn-nodejs",
   "version": "1.0.0",
   "description": "Learn NodeJS",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
-    "start": "nodemon main.js",
+    "start": "nodemon src/main.js",
+    "watch":"node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,9 +23,12 @@
   },
   "homepage": "https://github.com/huynhlong204/learn-NodeJS#readme",
   "dependencies": {
-    "express": "4.21.1"
+    "express": "4.21.1",
+    "express-handlebars": "8.0.1"
   },
   "devDependencies": {
+    "morgan": "1.10.0",
+    "node-sass": "^9.0.0",
     "nodemon": "3.1.7"
   }
 }
